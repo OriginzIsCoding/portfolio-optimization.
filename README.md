@@ -1,0 +1,4 @@
+A sophisticated Python-based portfolio optimization tool that extends the classic Markowitz Mean-Variance Optimization (MVO) framework by incorporating penalties for skewness and kurtosis.
+This approach addresses a key limitation of traditional MVO (its assumption of normally distributed returns) by directly accounting for the impact of extreme events and asymmetric return profiles, which are extremely in pricing insurance-linked securities (ILS) and managing tail risk.
+Also plots the efficient frontier using an algorithm to find the set of weights of each stock in the portfolio which give the best return at each level of risk, the risk associated for each portfolio weight is determined by the variance but also is determined by the skewness and excess kurtosis derived from a distribution of returns of each portfolio.
+This approach leads to a less 'optimistic' and more realistic efficient frontier and is more adapted to the real world of equities.
